@@ -119,149 +119,25 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "2c3c9e1d-6dfa-4824-963f-b10748d2da3b",
-            "Description": "Verify element 'UserNavigationLabelDiv' 'is' visible.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
-              "__value": {
-                "IsVisible": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "SearchByImageFirst": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "verifyTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "verifyTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://www.facebook.com/",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Facebook – log in or sign up",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "FacebookLogInOrSignUp"
-                        }
-                      },
-                      "Frame": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "aIofsv+1aOc/cNp0MUhbmtDfHhA=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "UserNavigationLabelDiv",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=userNavigationLabel"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=div"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/a[1]/div[1]",
-                          "ImageSearchClauses": [
-                            {
-                              "__type": "ArtOfTest.Common.ImageSearchClause",
-                              "__value": {
-                                "Resolution": "1920, 1080",
-                                "BroweserType": 7,
-                                "Image": "75041ACF23E6DAAAD4C70EF1D102E15B61C8D374A4250F634B99D221786453AE",
-                                "Index": 1,
-                                "MatchThreshold": 90,
-                                "OsVersion": "10.0.18362.0",
-                                "ScreenScale": 1.25,
-                                "ScrollOnImageSearch": null
-                              }
-                            }
-                          ],
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 2,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 3,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "datadriven_fb_loginflohkpki.ytw",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "a2a495cb-ef06-49f3-a68c-e3ea4be15b66",
-            "Description": "IF (Verify element 'UserNavigationLabelDiv' 'is' visible.)",
+            "Runtime ID": "4e181356-92f7-4aac-84be-36192375181f",
+            "Description": "IF (Wait for Exists 'U04Submit')",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
               "__value": {
                 "Verification": {
-                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
                   "__value": {
-                    "IsVisible": true,
+                    "SearchByImageFirst": 0,
+                    "ExistsNot": false,
+                    "WaitOnElements": true,
+                    "WaitOnElementsTimeout": 30000,
+                    "UseStepWaitOnElementsTimout": false,
                     "DataBindVariableName": null,
                     "Timeout": 30000,
                     "CheckInterval": 500,
                     "EnsureStateIsCurrent": false,
                     "Pause": 0,
-                    "WaitOnElementsTimeout": 30000,
-                    "SearchByImageFirst": 0,
-                    "UseStepWaitOnElementsTimout": false,
-                    "WaitOnElements": true,
                     "RunsAgainstVersion": "",
                     "Constraints": {
                       "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
@@ -270,10 +146,10 @@
                       }
                     },
                     "Elements": {
-                      "verifyTarget": {
+                      "target": {
                         "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                         "__value": {
-                          "Name": "verifyTarget",
+                          "Name": "target",
                           "Region": null,
                           "Page": {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
@@ -293,10 +169,10 @@
                           "FindExpression": {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                             "__value": {
-                              "uniqueKey": "aIofsv+1aOc/cNp0MUhbmtDfHhA=",
+                              "uniqueKey": "M6BTrtspxiM3fnJal4yUdrJ82vk=",
                               "NodeKind": 4,
                               "TechnologyType": 1,
-                              "Name": "UserNavigationLabelDiv",
+                              "Name": "U04Submit",
                               "FindExpressions": [
                                 {
                                   "Key": 1,
@@ -307,13 +183,13 @@
                                         {
                                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                           "__value": {
-                                            "Clause": "id=userNavigationLabel"
+                                            "Clause": "id=u_0_4"
                                           }
                                         },
                                         {
                                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                           "__value": {
-                                            "Clause": "tagname=div"
+                                            "Clause": "tagname=input"
                                           }
                                         }
                                       ],
@@ -323,15 +199,15 @@
                                   }
                                 }
                               ],
-                              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/a[1]/div[1]",
+                              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[2]/td[3]/label[1]/input[1]",
                               "ImageSearchClauses": [
                                 {
                                   "__type": "ArtOfTest.Common.ImageSearchClause",
                                   "__value": {
                                     "Resolution": "1920, 1080",
                                     "BroweserType": 7,
-                                    "Image": "75041ACF23E6DAAAD4C70EF1D102E15B61C8D374A4250F634B99D221786453AE",
-                                    "Index": 1,
+                                    "Image": "FC96574A9DE14428DD8E30C018C91AC0AE94A81EBD1DC6B822F423F9186531EE",
+                                    "Index": 0,
                                     "MatchThreshold": 90,
                                     "OsVersion": "10.0.18362.0",
                                     "ScreenScale": 1.25,
@@ -342,7 +218,7 @@
                               "DataBindingExpressions": {}
                             }
                           },
-                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputSubmit",
                           "IsIndependent": false,
                           "DomStateKey": "",
                           "TechnologyType": 1,
@@ -350,7 +226,7 @@
                         }
                       }
                     },
-                    "StepType": 2,
+                    "StepType": 1,
                     "LogMessageOnFailure": "",
                     "EditorType": "",
                     "DataBindingExpressions": {}
@@ -358,269 +234,6 @@
                 },
                 "Branches": {
                   "1": {
-                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
-                    "__value": {
-                      "StepList": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
-                        "__value": [
-                          {
-                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-                            "__value": {
-                              "Runtime ID": "0828d33d-564b-4b9b-b455-55f623d460c9",
-                              "Description": "Click 'UserNavigationLabelDiv'",
-                              "CustomDescription": null,
-                              "Step": {
-                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-                                "__value": {
-                                  "SimulateRealClick": false,
-                                  "ScrollToVisibleType": 0,
-                                  "UsejQuery": false,
-                                  "ClosesBrowser": false,
-                                  "AjaxTimeout": 0,
-                                  "Pause": 0,
-                                  "WaitOnElementsTimeout": 30000,
-                                  "SearchByImageFirst": 0,
-                                  "UseStepWaitOnElementsTimout": false,
-                                  "WaitOnElements": true,
-                                  "RunsAgainstVersion": "",
-                                  "Constraints": {
-                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                                    "__value": {
-                                      "ConstraintValues": {}
-                                    }
-                                  },
-                                  "Elements": {
-                                    "target": {
-                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                                      "__value": {
-                                        "Name": "target",
-                                        "Region": null,
-                                        "Page": {
-                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                                          "__value": {
-                                            "Path": "https://www.facebook.com/",
-                                            "Query": "",
-                                            "BaseUrl": "",
-                                            "EquivalentUrls": [],
-                                            "Fragment": "",
-                                            "Title": "Facebook – log in or sign up",
-                                            "CompareMode": 2,
-                                            "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "FacebookLogInOrSignUp"
-                                          }
-                                        },
-                                        "Frame": null,
-                                        "FindExpression": {
-                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                                          "__value": {
-                                            "uniqueKey": "aIofsv+1aOc/cNp0MUhbmtDfHhA=",
-                                            "NodeKind": 4,
-                                            "TechnologyType": 1,
-                                            "Name": "UserNavigationLabelDiv",
-                                            "FindExpressions": [
-                                              {
-                                                "Key": 1,
-                                                "Value": {
-                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                                  "__value": {
-                                                    "Clauses": [
-                                                      {
-                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                        "__value": {
-                                                          "Clause": "id=userNavigationLabel"
-                                                        }
-                                                      },
-                                                      {
-                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                        "__value": {
-                                                          "Clause": "tagname=div"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "Constraints": [],
-                                                    "ChainStops": []
-                                                  }
-                                                }
-                                              }
-                                            ],
-                                            "BackupSearchClause": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/a[1]/div[1]",
-                                            "ImageSearchClauses": [
-                                              {
-                                                "__type": "ArtOfTest.Common.ImageSearchClause",
-                                                "__value": {
-                                                  "Resolution": "1920, 1080",
-                                                  "BroweserType": 7,
-                                                  "Image": "75041ACF23E6DAAAD4C70EF1D102E15B61C8D374A4250F634B99D221786453AE",
-                                                  "Index": 1,
-                                                  "MatchThreshold": 90,
-                                                  "OsVersion": "10.0.18362.0",
-                                                  "ScreenScale": 1.25,
-                                                  "ScrollOnImageSearch": null
-                                                }
-                                              }
-                                            ],
-                                            "DataBindingExpressions": {}
-                                          }
-                                        },
-                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                                        "IsIndependent": false,
-                                        "DomStateKey": "",
-                                        "TechnologyType": 1,
-                                        "Version": 200
-                                      }
-                                    }
-                                  },
-                                  "StepType": 4,
-                                  "LogMessageOnFailure": "",
-                                  "EditorType": "",
-                                  "DataBindingExpressions": {}
-                                }
-                              },
-                              "Enabled": true,
-                              "Order": 1,
-                              "Id": "",
-                              "StepState": 0,
-                              "ContinueOnFailure": false,
-                              "StepImageKey": "datadriven_fb_loginkybpi42o.z1w",
-                              "QcId": 0,
-                              "QcVersionStamp": 0,
-                              "Version": 200
-                            }
-                          },
-                          {
-                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-                            "__value": {
-                              "Runtime ID": "31e3ecde-5d65-4b55-8da3-05afbfc3035b",
-                              "Description": "Click 'LogOutSpan'",
-                              "CustomDescription": null,
-                              "Step": {
-                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-                                "__value": {
-                                  "SimulateRealClick": false,
-                                  "ScrollToVisibleType": 0,
-                                  "UsejQuery": false,
-                                  "ClosesBrowser": false,
-                                  "AjaxTimeout": 0,
-                                  "Pause": 0,
-                                  "WaitOnElementsTimeout": 30000,
-                                  "SearchByImageFirst": 0,
-                                  "UseStepWaitOnElementsTimout": false,
-                                  "WaitOnElements": true,
-                                  "RunsAgainstVersion": "",
-                                  "Constraints": {
-                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                                    "__value": {
-                                      "ConstraintValues": {}
-                                    }
-                                  },
-                                  "Elements": {
-                                    "target": {
-                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                                      "__value": {
-                                        "Name": "target",
-                                        "Region": null,
-                                        "Page": {
-                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                                          "__value": {
-                                            "Path": "https://www.facebook.com/",
-                                            "Query": "",
-                                            "BaseUrl": "",
-                                            "EquivalentUrls": [],
-                                            "Fragment": "",
-                                            "Title": "Facebook – log in or sign up",
-                                            "CompareMode": 2,
-                                            "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "FacebookLogInOrSignUp"
-                                          }
-                                        },
-                                        "Frame": null,
-                                        "FindExpression": {
-                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                                          "__value": {
-                                            "uniqueKey": "NC+ekuZhwxriM1c6bQei/Y2wFAA=",
-                                            "NodeKind": 4,
-                                            "TechnologyType": 1,
-                                            "Name": "LogOutSpan",
-                                            "FindExpressions": [
-                                              {
-                                                "Key": 1,
-                                                "Value": {
-                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                                  "__value": {
-                                                    "Clauses": [
-                                                      {
-                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                        "__value": {
-                                                          "Clause": "TextContent=Log Out"
-                                                        }
-                                                      },
-                                                      {
-                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                        "__value": {
-                                                          "Clause": "tagname=span"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "Constraints": [],
-                                                    "ChainStops": []
-                                                  }
-                                                }
-                                              }
-                                            ],
-                                            "BackupSearchClause": "/html[1]/body[1]/div[18]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[9]/a[1]/span[1]/span[1]",
-                                            "ImageSearchClauses": [
-                                              {
-                                                "__type": "ArtOfTest.Common.ImageSearchClause",
-                                                "__value": {
-                                                  "Resolution": "1920, 1080",
-                                                  "BroweserType": 7,
-                                                  "Image": "D03F90D56E0C617F0DFD10EF221CCB9A492161D62E87556A246C7678A1FB17C5",
-                                                  "Index": 0,
-                                                  "MatchThreshold": 90,
-                                                  "OsVersion": "10.0.18362.0",
-                                                  "ScreenScale": 1.25,
-                                                  "ScrollOnImageSearch": null
-                                                }
-                                              }
-                                            ],
-                                            "DataBindingExpressions": {}
-                                          }
-                                        },
-                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
-                                        "IsIndependent": false,
-                                        "DomStateKey": "",
-                                        "TechnologyType": 1,
-                                        "Version": 200
-                                      }
-                                    }
-                                  },
-                                  "StepType": 4,
-                                  "LogMessageOnFailure": "",
-                                  "EditorType": "",
-                                  "DataBindingExpressions": {}
-                                }
-                              },
-                              "Enabled": true,
-                              "Order": 2,
-                              "Id": "",
-                              "StepState": 0,
-                              "ContinueOnFailure": false,
-                              "StepImageKey": "datadriven_fb_loginqjjssgnl.ldb",
-                              "QcId": 0,
-                              "QcVersionStamp": 0,
-                              "Version": 200
-                            }
-                          }
-                        ]
-                      },
-                      "Description": "IF ({0})",
-                      "CustomDescription": null,
-                      "Order": 0,
-                      "Branch": 1,
-                      "Visible": true
-                    }
-                  },
-                  "0": {
                     "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
                     "__value": {
                       "StepList": {
@@ -951,6 +564,132 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
+                              "Runtime ID": "02860568-7588-4f0e-92f1-12e1df9ab8fb",
+                              "Description": "Verify 'value' attribute 'Contains' value 'Log In' on 'U04Submit'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.AttributeVerificationDescriptor",
+                                "__value": {
+                                  "AttributeName": "value",
+                                  "AttributeValue": "Log In",
+                                  "CompareType": 2,
+                                  "DataBindVariableName": null,
+                                  "Timeout": 30000,
+                                  "CheckInterval": 500,
+                                  "EnsureStateIsCurrent": false,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "SearchByImageFirst": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "verifyTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "verifyTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://www.facebook.com/",
+                                            "Query": "",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Facebook – log in or sign up",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "FacebookLogInOrSignUp"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "M6BTrtspxiM3fnJal4yUdrJ82vk=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "U04Submit",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=u_0_4"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=input"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[2]/td[3]/label[1]/input[1]",
+                                            "ImageSearchClauses": [
+                                              {
+                                                "__type": "ArtOfTest.Common.ImageSearchClause",
+                                                "__value": {
+                                                  "Resolution": "1920, 1080",
+                                                  "BroweserType": 7,
+                                                  "Image": "FC96574A9DE14428DD8E30C018C91AC0AE94A81EBD1DC6B822F423F9186531EE",
+                                                  "Index": 0,
+                                                  "MatchThreshold": 90,
+                                                  "OsVersion": "10.0.18362.0",
+                                                  "ScreenScale": 1.25,
+                                                  "ScrollOnImageSearch": null
+                                                }
+                                              }
+                                            ],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputSubmit",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 2,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 4,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "datadriven_fb_logingivsklqm.nyn",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
                               "Runtime ID": "62692be0-50b7-437b-ac5e-e6c756cefb66",
                               "Description": "Click 'U04Submit'",
                               "CustomDescription": null,
@@ -1062,11 +801,135 @@
                                 }
                               },
                               "Enabled": true,
-                              "Order": 4,
+                              "Order": 5,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
                               "StepImageKey": "datadriven_fb_login2ao1pt0h.xm0",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "7bb3a2b5-f6c1-48c8-8b4a-4b92bd50d185",
+                              "Description": "Wait for Exists 'U04Submit'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+                                "__value": {
+                                  "SearchByImageFirst": 0,
+                                  "ExistsNot": false,
+                                  "WaitOnElements": true,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "DataBindVariableName": null,
+                                  "Timeout": 30000,
+                                  "CheckInterval": 500,
+                                  "EnsureStateIsCurrent": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://www.facebook.com/",
+                                            "Query": "",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Facebook – log in or sign up",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "FacebookLogInOrSignUp"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "M6BTrtspxiM3fnJal4yUdrJ82vk=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "U04Submit",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=u_0_4"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=input"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[2]/td[3]/label[1]/input[1]",
+                                            "ImageSearchClauses": [
+                                              {
+                                                "__type": "ArtOfTest.Common.ImageSearchClause",
+                                                "__value": {
+                                                  "Resolution": "1920, 1080",
+                                                  "BroweserType": 7,
+                                                  "Image": "FC96574A9DE14428DD8E30C018C91AC0AE94A81EBD1DC6B822F423F9186531EE",
+                                                  "Index": 0,
+                                                  "MatchThreshold": 90,
+                                                  "OsVersion": "10.0.18362.0",
+                                                  "ScreenScale": 1.25,
+                                                  "ScrollOnImageSearch": null
+                                                }
+                                              }
+                                            ],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputSubmit",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 1,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 6,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "datadriven_fb_loginlxm5i340.r1m",
                               "QcId": 0,
                               "QcVersionStamp": 0,
                               "Version": 200
@@ -1102,7 +965,7 @@
                                 }
                               },
                               "Enabled": true,
-                              "Order": 5,
+                              "Order": 7,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
@@ -1112,6 +975,269 @@
                               "Version": 200
                             }
                           },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "0828d33d-564b-4b9b-b455-55f623d460c9",
+                              "Description": "Click 'UserNavigationLabelDiv'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+                                "__value": {
+                                  "SimulateRealClick": false,
+                                  "ScrollToVisibleType": 0,
+                                  "UsejQuery": false,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "SearchByImageFirst": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://www.facebook.com/",
+                                            "Query": "",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Facebook – log in or sign up",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "FacebookLogInOrSignUp"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "aIofsv+1aOc/cNp0MUhbmtDfHhA=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "UserNavigationLabelDiv",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=userNavigationLabel"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=div"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/a[1]/div[1]",
+                                            "ImageSearchClauses": [
+                                              {
+                                                "__type": "ArtOfTest.Common.ImageSearchClause",
+                                                "__value": {
+                                                  "Resolution": "1920, 1080",
+                                                  "BroweserType": 7,
+                                                  "Image": "75041ACF23E6DAAAD4C70EF1D102E15B61C8D374A4250F634B99D221786453AE",
+                                                  "Index": 1,
+                                                  "MatchThreshold": 90,
+                                                  "OsVersion": "10.0.18362.0",
+                                                  "ScreenScale": 1.25,
+                                                  "ScrollOnImageSearch": null
+                                                }
+                                              }
+                                            ],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 8,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "datadriven_fb_loginkybpi42o.z1w",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "31e3ecde-5d65-4b55-8da3-05afbfc3035b",
+                              "Description": "Click 'LogOutSpan'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+                                "__value": {
+                                  "SimulateRealClick": false,
+                                  "ScrollToVisibleType": 0,
+                                  "UsejQuery": false,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "SearchByImageFirst": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://www.facebook.com/",
+                                            "Query": "",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Facebook – log in or sign up",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "FacebookLogInOrSignUp"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "NC+ekuZhwxriM1c6bQei/Y2wFAA=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "LogOutSpan",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TextContent=Log Out"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=span"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[18]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[9]/a[1]/span[1]/span[1]",
+                                            "ImageSearchClauses": [
+                                              {
+                                                "__type": "ArtOfTest.Common.ImageSearchClause",
+                                                "__value": {
+                                                  "Resolution": "1920, 1080",
+                                                  "BroweserType": 7,
+                                                  "Image": "D03F90D56E0C617F0DFD10EF221CCB9A492161D62E87556A246C7678A1FB17C5",
+                                                  "Index": 0,
+                                                  "MatchThreshold": 90,
+                                                  "OsVersion": "10.0.18362.0",
+                                                  "ScreenScale": 1.25,
+                                                  "ScrollOnImageSearch": null
+                                                }
+                                              }
+                                            ],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 9,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "datadriven_fb_loginqjjssgnl.ldb",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
+                      },
+                      "Description": "IF ({0})",
+                      "CustomDescription": null,
+                      "Order": 0,
+                      "Branch": 1,
+                      "Visible": true
+                    }
+                  },
+                  "0": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": [
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
@@ -1226,7 +1352,7 @@
                                 }
                               },
                               "Enabled": true,
-                              "Order": 6,
+                              "Order": 1,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
@@ -1350,7 +1476,7 @@
                                 }
                               },
                               "Enabled": true,
-                              "Order": 7,
+                              "Order": 2,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
@@ -1383,10 +1509,10 @@
                   }
                 },
                 "Elements": {
-                  "verifyTarget": {
+                  "target": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "verifyTarget",
+                      "Name": "target",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
@@ -1406,10 +1532,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "aIofsv+1aOc/cNp0MUhbmtDfHhA=",
+                          "uniqueKey": "M6BTrtspxiM3fnJal4yUdrJ82vk=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "UserNavigationLabelDiv",
+                          "Name": "U04Submit",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1420,13 +1546,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=userNavigationLabel"
+                                        "Clause": "id=u_0_4"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=div"
+                                        "Clause": "tagname=input"
                                       }
                                     }
                                   ],
@@ -1436,15 +1562,15 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/a[1]/div[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[2]/td[3]/label[1]/input[1]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
                                 "Resolution": "1920, 1080",
                                 "BroweserType": 7,
-                                "Image": "75041ACF23E6DAAAD4C70EF1D102E15B61C8D374A4250F634B99D221786453AE",
-                                "Index": 1,
+                                "Image": "FC96574A9DE14428DD8E30C018C91AC0AE94A81EBD1DC6B822F423F9186531EE",
+                                "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.18362.0",
                                 "ScreenScale": 1.25,
@@ -1455,7 +1581,7 @@
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputSubmit",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -1470,7 +1596,7 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1498,7 +1624,7 @@
     "IsManual": false,
     "ResourceFilePath": "datadriven_fb_login.resx",
     "ElementImageStoreFilePath": "datadriven_fb_login.imgstore",
-    "HasCodeBehind": true,
+    "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
